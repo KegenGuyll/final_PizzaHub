@@ -1,0 +1,123 @@
+body{
+	background-image: url("./images/Background.png");
+}
+
+
+#Pizza-toppings-cheese{
+    visibility: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #Pizza-toppings-sauce, #Pizza-base-image, #Pizza-toppings-cheese, #Pizza-toppings-sausage ,#Pizza-toppings-pepperoni {
+        position: absolute;
+        z-index: 2;
+        left: 13.5%;
+        right: auto;
+        height: auto;
+        width: 75vw;
+        top: 12%
+    }
+    #logo-image{
+        height: auto;
+    width: 50%;
+    top: -16px;
+    right: 0;
+    position: relative;
+    }
+    .collapsible{
+        position: relative !important;
+        top: 200px !important;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #Pizza-toppings-sauce, #Pizza-base-image, #Pizza-toppings-cheese, #Pizza-toppings-sausage ,#Pizza-toppings-pepperoni{
+        position: absolute;
+        z-index: 2;
+        left: 28.5%;
+        height: auto;
+        width: 45vw;
+    }
+    #logo-image{
+        height: auto;
+    width: 50%;
+    top: -16px;
+    right: 0;
+    position: relative;
+    }
+    .collapsible{
+        position: relative !important;
+        top: 200px !important;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #Pizza-toppings-sauce, #Pizza-base-image, #Pizza-toppings-cheese, #Pizza-toppings-sausage ,#Pizza-toppings-pepperoni{
+        position: absolute;
+        z-index: 2;
+        left: 28.5%;
+        height: auto;
+        width: 45vw;
+        top:10%
+    }
+    #logo-image{
+        height: auto;
+    width: 35%;
+    top: -27px;
+    right: 0;
+    position: relative;
+    }
+    .collapsible{
+        position: relative !important;
+        top: 200px !important;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #Pizza-toppings-sauce, #Pizza-base-image, #Pizza-toppings-cheese, #Pizza-toppings-sausage ,#Pizza-toppings-pepperoni{
+        position: absolute;
+    z-index: 2;
+    left: 37%;
+    height: auto;
+    width: 30vw;
+    top: 13%;
+    }
+    #logo-image{
+        height: auto;
+        width: 30%;
+        top: -35px;
+        right: 0;
+        position: relative;
+    }
+    .collapsible{
+        position: relative !important;
+        top: 200px !important;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #Pizza-toppings-sauce, #Pizza-base-image, #Pizza-toppings-cheese, #Pizza-toppings-sausage ,#Pizza-toppings-pepperoni{
+        position: absolute;
+        z-index: 2;
+        left: 40%;
+        height: auto;
+        width: 20vw;
+        top: 12%;
+    }
+    #logo-image{
+        height: auto;
+        width: 15%;
+        top: -15px;
+        right: 0;
+        position: relative;
+    }
+    .collapsible{
+        position: relative !important;
+        top: 200px !important;
+    }
+}
